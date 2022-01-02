@@ -1,4 +1,4 @@
-# Useful shell commands to manipulate files in Linux. 
+# Useful Linux commands.
 
 Encode file line-by-line:
 
