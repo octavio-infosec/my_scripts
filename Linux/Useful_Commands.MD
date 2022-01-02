@@ -1,5 +1,11 @@
 # Useful Linux commands.
 
+Decode base64 string:
+
+`
+echo -n "string==" | base64 -d
+`
+
 Encode file line-by-line:
 
 `
