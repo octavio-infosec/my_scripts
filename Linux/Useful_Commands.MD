@@ -1,9 +1,15 @@
-# Useful Linux commands.
+# Useful Linux commands. In no particular order. Use ctrl + F to find information.
 
 Decode base64 string:
 
 `
 echo -n "string==" | base64 -d
+`
+
+Execute base64 string:
+
+`
+echo 'ZWNob=' | base64 -d | bash
 `
 
 Encode file line-by-line:
