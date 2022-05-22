@@ -23,3 +23,7 @@ Join usernames.txt and password.txt files with a ":" placed in between each cred
 ` 
 for var in $(paste -d " " usernames.txt passwords.txt | tr -s " " | cut -d " " -f 1,2 --output-delimiter=':'); do echo -n $var | base64;done
 `
+
+Remove duplicate lines in a file:
+
+`sort file.txt | uniq > file2.txt`
